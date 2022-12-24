@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cwiz_log_sign/loginScreen.dart';
+import 'package:cwiz_log_sign/signupScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.white,
-        body: logins(),
+        body: signUp(),
       ),
     );
   }
